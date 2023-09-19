@@ -50,10 +50,7 @@ int NumberPositionInArray(int arr[], int length, int num)
 
 bool checkNumberInArray(int arr[], int length, int num)
 {
-	if (NumberPositionInArray(arr, length, num) == -1)
-		return false;
-	else
-		return true;
+	return NumberPositionInArray(arr, length, num) != -1;
 }
 
 void printFindNumberCheck(int arr[], int length, int num)
