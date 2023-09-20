@@ -57,7 +57,6 @@ void printFindNumberCheck(int arr[], int length, int num)
 {
 	if (checkNumberInArray(arr, length, num))
 	{
-		int numPosition = NumberPositionInArray(arr, length, num);
 		cout << "Number Yor are looking for is : " << num << endl;
 		cout << "Yes, the number is found :-) " << endl;
 	}
